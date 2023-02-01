@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npx tsc",
-    "start": "node --es-module-specifier-resolution=node"
+    "start": "node"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.5"
